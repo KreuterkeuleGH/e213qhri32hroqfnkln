@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -17,7 +18,7 @@
         android:gravity="center"
         android:paddingBottom="16dp" />
 
-    <!-- Button, um einen Musikordner auszuwählen -->
+    <!-- Button zum Ordner-Auswählen; wird in Activity per Visibility gesteuert -->
     <Button
         android:id="@+id/btnSelectMusicFolder"
         android:layout_width="match_parent"
@@ -28,23 +29,24 @@
         android:textColor="#FFFFFF"
         android:visibility="gone" />
 
-    <!-- ProgressBar zur Anzeige eines Ladeindikators -->
+    <!-- ProgressBar für Lade-Indikator -->
     <ProgressBar
         android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:visibility="gone"
         android:layout_marginBottom="16dp" />
 
-    <!-- ListView zur Anzeige der Inhalte -->
-    <ListView
-        android:id="@+id/listViewTracks"
+    <!-- RecyclerView für deine Track-Liste -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerTracks"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp"
+        android:overScrollMode="always"
+        android:clipToPadding="false"
         android:scrollbars="vertical" />
 
 </LinearLayout>
