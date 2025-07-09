@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bilder">Bilder</string>
+    <string name="musik">Musik</string>
+    <string name="filme">Filme</string>
+    <string name="aufklappFenster">☰</string>
+    <string name="Einstellungen">⚙</string>
+    <string name="alle_titel">Alle Titel</string>
+    <string name="playlists">Playlists</string>
+    <string name="neue_titel">Neue Titel</string>
+    <string name="wiedergabe_liste">Wiedergabe Liste</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="tiefer_suche">🔍</string>
+</resources>

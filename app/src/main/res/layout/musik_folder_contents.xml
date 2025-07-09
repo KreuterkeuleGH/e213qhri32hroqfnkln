@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- musik_folder_contents.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Überschrift oder optionaler Hinweis -->
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inhalt des Ordners"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="8dp" />
+
+    <!-- ListView zur Anzeige der Titel -->
+    <ListView
+        android:id="@+id/listViewDialogContents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="?android:attr/dividerHorizontal"
+        android:dividerHeight="1dp" />
+</LinearLayout>

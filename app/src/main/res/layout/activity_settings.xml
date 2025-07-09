@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/musik_settings"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Einstellungen"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnSelectMusicFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Musikordner festlegen"
+        android:layout_marginTop="16dp"
+        android:background="#333333"
+        android:textColor="#FFFFFF"/>
+
+    <ListView
+        android:id="@+id/listViewFolders"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+</LinearLayout>

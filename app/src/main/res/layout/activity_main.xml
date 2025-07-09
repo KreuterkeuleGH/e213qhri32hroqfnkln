@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#000000">
+
+        <Button
+            android:id="@+id/btnImages"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#333333"
+            android:text="@string/bilder"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <Button
+            android:id="@+id/music_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#333333"
+            android:text="@string/musik"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <Button
+            android:id="@+id/btnVideos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#333333"
+            android:text="@string/filme"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteY="366dp" />
+
+</LinearLayout>

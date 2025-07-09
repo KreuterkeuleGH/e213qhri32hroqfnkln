@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- folder_list_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Anzeige des Ordnernamens -->
+    <TextView
+        android:id="@+id/tvFolderName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Folder Name"
+        android:textSize="16sp"
+        android:textColor="@android:color/white" />
+
+    <!-- Löschen-Button -->
+    <Button
+        android:id="@+id/btnDeleteFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Löschen" />
+</LinearLayout>
