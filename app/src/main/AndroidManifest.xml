@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Hier können beispielsweise Berechtigungen definiert werden -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_Audio" />
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
@@ -8,12 +9,13 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:name=".app.MyApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".app.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +24,7 @@
         </activity>
 
         <activity
-            android:name=".MusicPlayerActivity"
+            android:name=".music.ui.MusicPlayerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +33,7 @@
         </activity>
 
         <activity
-            android:name=".AllTracksActivity"
+            android:name=".music.ui.AllTracksActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +42,7 @@
         </activity>
 
         <activity
-            android:name=".SettingsActivity"
+            android:name=".MusicSettingsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +51,7 @@
         </activity>
 
         <activity
-            android:name=".TitleListActivity"
+            android:name=".ui.TitleListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,7 +60,7 @@
         </activity>
 
         <activity
-            android:name=".TrackListActivity"
+            android:name=".ui.TrackListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,7 +69,7 @@
         </activity>
 
         <activity
-            android:name=".LibraryScanActivity"
+            android:name=".library.ui.LibraryScanActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

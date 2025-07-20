@@ -1,6 +1,8 @@
 package com.example.myapplication;// Datei: TrackTest.java (im Ordner src/test/java/...)
 import static org.junit.Assert.*;
 
+import com.example.myapplication.music.data.Track;
+
 import org.junit.Test;
 
 public class TrackTest {

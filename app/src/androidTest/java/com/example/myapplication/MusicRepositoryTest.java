@@ -7,8 +7,8 @@ import android.content.Context;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.example.myapplication.MusicRepository;
-import com.example.myapplication.Track;
+import com.example.myapplication.music.data.MusicRepository;
+import com.example.myapplication.music.data.Track;
 
 import org.junit.Before;
 import org.junit.Test;

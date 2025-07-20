@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Handler;
 import android.util.Log;
 
-import com.example.myapplication.Track;
+import com.example.myapplication.music.data.Track;
 
 import java.io.IOException;
 

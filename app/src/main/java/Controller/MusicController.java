@@ -3,8 +3,8 @@ package Controller;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
-import com.example.myapplication.MusicRepository;
-import com.example.myapplication.Track;
+import com.example.myapplication.music.data.MusicRepository;
+import com.example.myapplication.music.data.Track;
 import java.util.List;
 
 public class MusicController extends AppCompatActivity {
